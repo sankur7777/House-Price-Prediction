@@ -11,7 +11,7 @@ REQUIREMENT_FILE_NAME="requirements.txt"
 
 
 
-def get_requirements_list()->List(str):
+def get_requirements_list()->List[str]:
     """
     Description: This function is going to return list of requirement
     mention in requirements.txt file
