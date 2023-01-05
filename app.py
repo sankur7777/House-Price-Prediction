@@ -10,7 +10,7 @@ import os, sys
 import json
 from housing.config.configuration import Configuartion
 from housing.constant import CONFIG_DIR, get_current_time_stamp
-from housing.pipeline.pipeline import Pipeline
+from housing.pipline.pipeline import Pipeline
 from housing.entity.housing_predictor import HousingPredictor, HousingData
 from flask import send_file, abort, render_template
 
